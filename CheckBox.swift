@@ -8,6 +8,8 @@
 
 import UIKit
 
+
+// RadioGroup
 @IBDesignable open class CheckBox: UIView{
     
     

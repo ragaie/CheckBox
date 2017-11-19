@@ -7,18 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		81894AF71FC1D28F008CF51B /* RadioCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 81894AF61FC1D28F008CF51B /* RadioCell.xib */; };
+		81894AF91FC1DEA7008CF51B /* RadioGroupDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81894AF81FC1DEA7008CF51B /* RadioGroupDelegate.swift */; };
+		81A5C4051FC1BED6003E35E3 /* RadioGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A5C4041FC1BED6003E35E3 /* RadioGroup.swift */; };
+		81A5C4081FC1BF46003E35E3 /* RadioGroup.xib in Resources */ = {isa = PBXBuildFile; fileRef = 81A5C4071FC1BF45003E35E3 /* RadioGroup.xib */; };
 		81C0C5591FBDD9AA00969BE8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C0C5581FBDD9AA00969BE8 /* AppDelegate.swift */; };
 		81C0C55B1FBDD9AA00969BE8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C0C55A1FBDD9AA00969BE8 /* ViewController.swift */; };
 		81C0C55E1FBDD9AA00969BE8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81C0C55C1FBDD9AA00969BE8 /* Main.storyboard */; };
 		81C0C5601FBDD9AA00969BE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81C0C55F1FBDD9AA00969BE8 /* Assets.xcassets */; };
 		81C0C5631FBDD9AA00969BE8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81C0C5611FBDD9AA00969BE8 /* LaunchScreen.storyboard */; };
 		81C0C56B1FBDD9D300969BE8 /* CheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C0C56A1FBDD9D300969BE8 /* CheckBox.swift */; };
-		81C0C56D1FBDDA9D00969BE8 /* CheckBox.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81C0C56C1FBDDA9D00969BE8 /* CheckBox.xcassets */; };
+		81C0C56D1FBDDA9D00969BE8 /* Group.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81C0C56C1FBDDA9D00969BE8 /* Group.xcassets */; };
 		81C0C56F1FBDDB9C00969BE8 /* CheckBox.xib in Resources */ = {isa = PBXBuildFile; fileRef = 81C0C56E1FBDDB9C00969BE8 /* CheckBox.xib */; };
 		81C0C5711FBDE96400969BE8 /* CheckBoxDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C0C5701FBDE96400969BE8 /* CheckBoxDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		81894AF61FC1D28F008CF51B /* RadioCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RadioCell.xib; sourceTree = "<group>"; };
+		81894AF81FC1DEA7008CF51B /* RadioGroupDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioGroupDelegate.swift; sourceTree = "<group>"; };
+		81A5C4041FC1BED6003E35E3 /* RadioGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioGroup.swift; sourceTree = "<group>"; };
+		81A5C4071FC1BF45003E35E3 /* RadioGroup.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RadioGroup.xib; sourceTree = "<group>"; };
 		81C0C5551FBDD9AA00969BE8 /* CheckBox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CheckBox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		81C0C5581FBDD9AA00969BE8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		81C0C55A1FBDD9AA00969BE8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -27,7 +35,7 @@
 		81C0C5621FBDD9AA00969BE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		81C0C5641FBDD9AA00969BE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		81C0C56A1FBDD9D300969BE8 /* CheckBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBox.swift; sourceTree = "<group>"; };
-		81C0C56C1FBDDA9D00969BE8 /* CheckBox.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = CheckBox.xcassets; sourceTree = "<group>"; };
+		81C0C56C1FBDDA9D00969BE8 /* Group.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Group.xcassets; sourceTree = "<group>"; };
 		81C0C56E1FBDDB9C00969BE8 /* CheckBox.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CheckBox.xib; sourceTree = "<group>"; };
 		81C0C5701FBDE96400969BE8 /* CheckBoxDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBoxDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -46,10 +54,14 @@
 		81C0C54C1FBDD9AA00969BE8 = {
 			isa = PBXGroup;
 			children = (
+				81894AF81FC1DEA7008CF51B /* RadioGroupDelegate.swift */,
+				81894AF61FC1D28F008CF51B /* RadioCell.xib */,
+				81A5C4071FC1BF45003E35E3 /* RadioGroup.xib */,
+				81A5C4041FC1BED6003E35E3 /* RadioGroup.swift */,
 				81C0C5701FBDE96400969BE8 /* CheckBoxDelegate.swift */,
 				81C0C56E1FBDDB9C00969BE8 /* CheckBox.xib */,
 				81C0C56A1FBDD9D300969BE8 /* CheckBox.swift */,
-				81C0C56C1FBDDA9D00969BE8 /* CheckBox.xcassets */,
+				81C0C56C1FBDDA9D00969BE8 /* Group.xcassets */,
 				81C0C5571FBDD9AA00969BE8 /* CheckBox */,
 				81C0C5561FBDD9AA00969BE8 /* Products */,
 			);
@@ -135,11 +147,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				81C0C56D1FBDDA9D00969BE8 /* CheckBox.xcassets in Resources */,
+				81C0C56D1FBDDA9D00969BE8 /* Group.xcassets in Resources */,
 				81C0C5631FBDD9AA00969BE8 /* LaunchScreen.storyboard in Resources */,
 				81C0C5601FBDD9AA00969BE8 /* Assets.xcassets in Resources */,
 				81C0C55E1FBDD9AA00969BE8 /* Main.storyboard in Resources */,
 				81C0C56F1FBDDB9C00969BE8 /* CheckBox.xib in Resources */,
+				81894AF71FC1D28F008CF51B /* RadioCell.xib in Resources */,
+				81A5C4081FC1BF46003E35E3 /* RadioGroup.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,6 +164,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81894AF91FC1DEA7008CF51B /* RadioGroupDelegate.swift in Sources */,
+				81A5C4051FC1BED6003E35E3 /* RadioGroup.swift in Sources */,
 				81C0C55B1FBDD9AA00969BE8 /* ViewController.swift in Sources */,
 				81C0C5591FBDD9AA00969BE8 /* AppDelegate.swift in Sources */,
 				81C0C56B1FBDD9D300969BE8 /* CheckBox.swift in Sources */,

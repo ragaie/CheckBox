@@ -8,7 +8,8 @@
 
 import UIKit
 
-class ViewController: UIViewController ,CheckBoxDelegate{
+class ViewController: UIViewController ,CheckBoxDelegate,RadioGroupDelegate{
+    
     func CheckBox(_ checkBox: CheckBox) {
         
         
@@ -21,12 +22,18 @@ class ViewController: UIViewController ,CheckBoxDelegate{
     @IBOutlet weak var checkOne: CheckBox!
     
     
+    @IBOutlet weak var radioGroupData: RadioGroup!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
         
         checkOne.delegate = self
+        
+        radioGroupData.delegate = self
+        radioGroupData.dataSource = ["first","secand","third one"]
     }
 
     override func didReceiveMemoryWarning() {
@@ -34,6 +41,12 @@ class ViewController: UIViewController ,CheckBoxDelegate{
         // Dispose of any resources that can be recreated.
     }
 
+    
+    func radioGroup(_ radioGroup: RadioGroup, selectIndex: Int) {
+        
+        print(selectIndex)
+        
+    }
 
 }
 
