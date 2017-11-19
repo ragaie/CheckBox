@@ -8,11 +8,25 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController ,CheckBoxDelegate{
+    func CheckBox(_ checkBox: CheckBox) {
+        
+        
+        
+       print( checkBox.checked)
+    }
+    
 
+    
+    @IBOutlet weak var checkOne: CheckBox!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        
+        checkOne.delegate = self
     }
 
     override func didReceiveMemoryWarning() {
