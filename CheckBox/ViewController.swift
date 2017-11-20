@@ -10,13 +10,7 @@ import UIKit
 
 class ViewController: UIViewController ,CheckBoxDelegate,RadioGroupDelegate{
     
-    func CheckBox(_ checkBox: CheckBox) {
-        
-        
-        
-       print( checkBox.checked)
-    }
-    
+
 
     
     @IBOutlet weak var checkOne: CheckBox!
@@ -29,9 +23,9 @@ class ViewController: UIViewController ,CheckBoxDelegate,RadioGroupDelegate{
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        
+        // set delegate of checkBox
         checkOne.delegate = self
-        
+        // set delegate of radio button
         radioGroupData.delegate = self
         radioGroupData.dataSource = ["first","secand","third one"]
     }
@@ -41,12 +35,27 @@ class ViewController: UIViewController ,CheckBoxDelegate,RadioGroupDelegate{
         // Dispose of any resources that can be recreated.
     }
 
+    func CheckBox(_ checkBox: CheckBox) {
+       print( checkBox.checked)
+    }
+    
+    
     
     func radioGroup(_ radioGroup: RadioGroup, selectIndex: Int) {
-        
         print(selectIndex)
-        
     }
+    
+    
+    
+    
+    
+    @IBAction func setValue(_ sender: Any) {
+        print(radioGroupData.selectIndex)
+        print(checkOne.checked)
+  
+    }
+    
+    
 
 }
 
