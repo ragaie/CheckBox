@@ -20,6 +20,7 @@
 		81C0C56D1FBDDA9D00969BE8 /* Group.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81C0C56C1FBDDA9D00969BE8 /* Group.xcassets */; };
 		81C0C56F1FBDDB9C00969BE8 /* CheckBox.xib in Resources */ = {isa = PBXBuildFile; fileRef = 81C0C56E1FBDDB9C00969BE8 /* CheckBox.xib */; };
 		81C0C5711FBDE96400969BE8 /* CheckBoxDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C0C5701FBDE96400969BE8 /* CheckBoxDelegate.swift */; };
+		81F361AE1FC5BC9400094D9E /* Simulator Screen Shot - iPhone 8 Plus - 2017-11-22 at 16.07.46.png in Resources */ = {isa = PBXBuildFile; fileRef = 81F361AC1FC5BC8200094D9E /* Simulator Screen Shot - iPhone 8 Plus - 2017-11-22 at 16.07.46.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		81C0C56C1FBDDA9D00969BE8 /* Group.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Group.xcassets; sourceTree = "<group>"; };
 		81C0C56E1FBDDB9C00969BE8 /* CheckBox.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CheckBox.xib; sourceTree = "<group>"; };
 		81C0C5701FBDE96400969BE8 /* CheckBoxDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBoxDelegate.swift; sourceTree = "<group>"; };
+		81F361AC1FC5BC8200094D9E /* Simulator Screen Shot - iPhone 8 Plus - 2017-11-22 at 16.07.46.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Simulator Screen Shot - iPhone 8 Plus - 2017-11-22 at 16.07.46.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 		81C0C5571FBDD9AA00969BE8 /* CheckBox */ = {
 			isa = PBXGroup;
 			children = (
+				81F361AD1FC5BC8500094D9E /* screen shot  */,
 				81C0C5581FBDD9AA00969BE8 /* AppDelegate.swift */,
 				81C0C55A1FBDD9AA00969BE8 /* ViewController.swift */,
 				81C0C55C1FBDD9AA00969BE8 /* Main.storyboard */,
@@ -86,6 +89,14 @@
 				81C0C5641FBDD9AA00969BE8 /* Info.plist */,
 			);
 			path = CheckBox;
+			sourceTree = "<group>";
+		};
+		81F361AD1FC5BC8500094D9E /* screen shot  */ = {
+			isa = PBXGroup;
+			children = (
+				81F361AC1FC5BC8200094D9E /* Simulator Screen Shot - iPhone 8 Plus - 2017-11-22 at 16.07.46.png */,
+			);
+			path = "screen shot ";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,6 +161,7 @@
 				81C0C56D1FBDDA9D00969BE8 /* Group.xcassets in Resources */,
 				81C0C5631FBDD9AA00969BE8 /* LaunchScreen.storyboard in Resources */,
 				81C0C5601FBDD9AA00969BE8 /* Assets.xcassets in Resources */,
+				81F361AE1FC5BC9400094D9E /* Simulator Screen Shot - iPhone 8 Plus - 2017-11-22 at 16.07.46.png in Resources */,
 				81C0C55E1FBDD9AA00969BE8 /* Main.storyboard in Resources */,
 				81C0C56F1FBDDB9C00969BE8 /* CheckBox.xib in Resources */,
 				81894AF71FC1D28F008CF51B /* RadioCell.xib in Resources */,
