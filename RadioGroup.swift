@@ -155,6 +155,13 @@ import UIKit
         radioText.font = UIFont.systemFont(ofSize: fontSize)
         
         allButton.append(radioButton)
+        
+        
+        if indexPath.row == 0 {
+            radioButton.setBackgroundImage(selectImage, for: .normal)
+            
+            
+        }
         return cell
         
         
