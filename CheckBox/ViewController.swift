@@ -49,7 +49,7 @@ class ViewController: UIViewController ,CheckBoxDelegate,RadioGroupDelegate{
         
         
         
-        radioGroup.selectIndex
+        print(radioGroup.selectIndex)
     }
     
     
