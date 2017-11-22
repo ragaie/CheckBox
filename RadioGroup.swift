@@ -125,7 +125,7 @@ import UIKit
         radioGrouptableView.dataSource = self
         let bundle = Bundle(for: type(of: self))
 
-        radioGrouptableView.register(UINib(nibName: "RadioCell", bundle: nil), forCellReuseIdentifier: "radioCellID")
+        radioGrouptableView.register(UINib(nibName: "RadioCell", bundle: bundle), forCellReuseIdentifier: "radioCellID")
  
     }
     
