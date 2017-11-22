@@ -11,5 +11,6 @@ public protocol RadioGroupDelegate {
     
     
     func radioGroup(_ radioGroup: RadioGroup, selectIndex : Int)
-    
+    func radioGroup(_ radioGroup: RadioGroup, deSelectIndex : Int)
+
 }

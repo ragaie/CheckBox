@@ -41,8 +41,15 @@ class ViewController: UIViewController ,CheckBoxDelegate,RadioGroupDelegate{
     
     
     
-    func radioGroup(_ radioGroup: RadioGroup, selectIndex: Int) {
+    func radioGroup(_ radioGroup: RadioGroup, selectIndex selectIndex: Int) {
         print(selectIndex)
+    }
+    
+    func radioGroup(_ radioGroup: RadioGroup, deSelectIndex: Int) {
+        
+        
+        
+        radioGroup.selectIndex
     }
     
     

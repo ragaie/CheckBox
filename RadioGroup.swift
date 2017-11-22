@@ -20,7 +20,7 @@ import UIKit
     
     public var delegate : RadioGroupDelegate!
     public var dataSource : [String]! = []
-    public var selectIndex : Int!
+    public var selectIndex : Int! = 0
     
     private var selectImage : UIImage!
     private var unSelectImage : UIImage!
@@ -181,6 +181,8 @@ import UIKit
         if delegate != nil{
             
             delegate.radioGroup(self, selectIndex: Int(sender.restorationIdentifier!)!)
+            
+            delegate.radioGroup(self, deSelectIndex: selectIndex)
         }
         
         selectIndex = Int(sender.restorationIdentifier!)!
