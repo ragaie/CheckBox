@@ -1,13 +1,15 @@
 # CheckBox and RadioGroup for ios 
 free component for ios 
 # CocaPod it is avialable now 
+# now You can used by cocaPod 
 pod 'CheckBox-RadioGroup'
 
-1- pod init
 
-2- pod update
+# Screen should be like 
 
-#License
+ ![alt tag](https://github.com/ragaie/CheckBox/blob/master/CheckBox/screen%20shot%20/Simulator%20Screen%20Shot%20-%20iPhone%208%20Plus%20-%202017-11-22%20at%2016.07.46.png)
+
+# icense
 MIT License
 
 Copyright (c) 2017 ragaie alfy fahmey
